@@ -83,15 +83,7 @@ const Footer = ({ title }) => {
               </>
             )}
 
-            <div className='text-sm font-serif'>
-              Powered by{' '}
-              <a
-                href='https://github.com/tangly1024/NotionNext'
-                className='underline justify-start text-white'>
-                NotionNext {siteConfig('VERSION')}
-              </a>
-              .
-            </div>
+
           </div>
 
           <DarkModeButton className='text-white' />
