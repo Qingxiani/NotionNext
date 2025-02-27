@@ -36,9 +36,14 @@ const Footer = ({ title }) => {
           {title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}
         </h1>
       </span>
+      <span>
+        <h1 className='text-xs pt-4 text-light-400 dark:text-gray-400'>
+        免责声明：部分博文引自他人，请关注原创，珍惜优秀作者~（博文仅供个人学习交流，若有相关侵权，请联系我，立即删除
+        </h1>
+      </span>
       <br />
     </footer>
-  )
+)
 }
 
 export default Footer
